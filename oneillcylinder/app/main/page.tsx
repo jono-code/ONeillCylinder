@@ -17,7 +17,11 @@ export default function Page() {
 
            <div> 
            <div className='h-2'></div>
-              <p className='text-xl w-80 text-gray-50' >O'NEILL_CYLINDERS an exploration</p>
+           <div className="flex gap-2 w-80">
+            <p className='text-xl  text-gray-50' >O'NEILL CYLINDERS</p>
+            <p style={{fontFamily:"Proxima Nova Light", whiteSpace:"nowrap"}} className="text-gray-100 mt-[1.8px]">an exploration</p>
+
+           </div>
            </div> 
            <div className='object-right w-4/6'> </div>
            <img src='/faceNew.svg'/> 
